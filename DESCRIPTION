@@ -1,0 +1,23 @@
+Package: ggplotThemeShifrin
+Type: Package
+Title: Custom Theme For ggplot
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Ariel", "Shifrin",
+      email = "arielshifrin@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Loads a few libraries for ggplot customization and initializes the theme.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports:
+  ggplot2,
+  showtext,
+  patchwork,
+  jsonlite,
+  sysfonts,
+  curl
+RoxygenNote: 7.3.3

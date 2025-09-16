@@ -19,5 +19,6 @@ Imports:
   patchwork,
   jsonlite,
   sysfonts,
+  ggrepel,
   curl
 RoxygenNote: 7.3.3

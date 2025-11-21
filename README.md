@@ -6,7 +6,9 @@ Use as follows:
 # Uncomment the line below if devtools is not installed
 # install.packages("devtools")
 devtools::install_github("arielshif/ggplotThemeShifrin")
-ggplot(...) + theme_ariel()
+
+ggplotThemeShifrin::init()
+ggplot(...) + ggplotThemeShifrin::theme_ariel()
 ```
 
 There are two arguments:

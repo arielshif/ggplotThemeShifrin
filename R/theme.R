@@ -13,8 +13,17 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-sysfonts::font_add_google("IBM Plex Sans", "ibm")
-showtext::showtext_auto()
+#' Initialization
+#'
+#' This function initializes runs the necessary commands for correct formatting.
+#'
+#' @return None
+#' @export
+init <- function() {
+  sysfonts::font_add_google("IBM Plex Sans", "ibm")
+  showtext::showtext_auto()
+}
+
 
 #' Theme Ariel
 #'

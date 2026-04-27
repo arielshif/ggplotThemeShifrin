@@ -19,7 +19,7 @@
 #'
 #' @return None
 #' @export
-init <- function() {
+.onLoad <- function(libname, pkgname) {
   sysfonts::font_add_google("IBM Plex Sans", "ibm")
   showtext::showtext_auto()
 }

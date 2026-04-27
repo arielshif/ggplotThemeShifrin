@@ -7,7 +7,6 @@ Use as follows:
 # install.packages("devtools")
 devtools::install_github("arielshif/ggplotThemeShifrin")
 
-ggplotThemeShifrin::init()
 ggplot(...) + ggplotThemeShifrin::theme_ariel()
 ```
 
